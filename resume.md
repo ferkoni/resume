@@ -1,31 +1,39 @@
 # Fernando Konishi
-**Software Engineer**
-📍 Encarnación, Paraguay | ✉️ ferkoni@gmail.com
+**Senior Software Engineer**
+
+Encarnación, Paraguay | ferkoni@gmail.com  
+[GitHub](https://github.com/ferkoni) | [LinkedIn](https://www.linkedin.com/in/fernando-konishi-5abb01114)
 
 ## Summary
-Software Engineer with years of experience in developing web applications and backend systems. Skilled at writing clear, concise code that is easy to maintain and troubleshoot. Experienced at working with both large and small teams.
+Senior Software Engineer with 11+ years building backend systems and third-party integrations, including 8 years growing with a SaaS startup from early-stage to an established platform. Deep experience connecting lab reporting platforms (FabricGenomics, Variantyx), EHR billing systems, and HL7 pipelines using Ruby on Rails, Python, and AWS. Repeatedly designed configurable, multi-tenant workflows — from lab report generation to patient billing — that could be adapted per client without code changes. Comfortable owning integrations end-to-end — from API design through production ops — on small teams where engineers carry broad scope.
 
 ---
 
 ## Experience
 
-### **Ovation** | Software Engineer & Senior Software Engineer
-*2018 — 2026*
+### **Ovation** | Senior Software Engineer
+*2021 — 2026*
 
-* Developed multiple integrations with clinical report generation services (**FabricGenomics**, **Variantyx**, **Coriell**).
-* Developed integration with **AdvancedMD** for patient billing workflows.
-* Developed integration with **AWS Lambda** for custom report generation.
-* Developed file exchange integration with **S3 buckets** for requisitions and reports import/export.
-* Developed **HL7** message parser for requisition import/export.
-* Helped migrate existing background job workers to **SQS** workers.
+* Built a configurable patient billing integration with AdvancedMD, orchestrating multi-step API workflows across patients, physicians, tests, and sample types to support per-project billing configurations.
+* Built a configurable report generation pipeline using AWS Lambda, rendering per-lab HTML templates to PDF to support custom report branding across lab clients.
+* Built a configurable S3 file exchange for importing and exporting requisitions and reports, with per-lab routing configuration for both directions.
+* Built a configurable HL7 message parser to handle non-standard implementations across lab clients, used for requisition and report import and export.
+* Refactored existing background job workers to SQS, adapting each job class and its unit tests to the new message structure — a migration that required thorough, methodical work across the codebase.
 * **Tools:** Ruby on Rails, EmberJs, Python, SCSS, MySQL, AWS S3, AWS Lambda, Docker.
+
+### **Ovation** | Software Engineer
+*2018 — 2021*
+
+* Built a configurable clinical report generation workflow integrated with FabricGenomics, Variantyx, and Coriell, supporting per-project and per-test customization across multiple lab clients.
+* Built JSON import/export pipeline for project configurations with deeply nested records, preserving referential integrity across environments. Used by the Customer Success team to promote validated lab projects from staging to production.
+* **Tools:** Ruby on Rails, EmberJs, SCSS, MySQL, AWS S3.
 
 ### **Inspira** | Software Developer
 *2016 — 2018*
 
 * Developed a system to manage user permissions for patient work orders based on work area.
 * Developed accounting and billing transaction history for customers.
-* **Tools:** Ruby on Rails, JQuery, SCSS, SVN, Git, PostgreSQL, Heroku.
+* **Tools:** Ruby on Rails, JQuery, SCSS, PostgreSQL, Heroku.
 
 ### **Power Steering** | Software Developer
 *2016*
@@ -49,8 +57,8 @@ Software Engineer with years of experience in developing web applications and ba
 
 ## Education
 
-* **Computer Science Engineering** | National University of Itapúa (2021)
-
+* **Computer Science Engineering** | National University of Itapúa — Graduated 2021
+  *Completed while working full-time as a Software Engineer*
 ---
 
 ## Languages
