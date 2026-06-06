@@ -5,7 +5,7 @@ Encarnación, Paraguay | ferkoni@gmail.com
 [GitHub](https://github.com/ferkoni) | [LinkedIn](https://www.linkedin.com/in/fernando-konishi-5abb01114)
 
 ## Summary
-Senior Software Engineer with 11+ years building backend systems and third-party integrations, including 8 years growing with a SaaS startup from early-stage to an established platform. Deep experience in healthcare data — lab reporting platforms (FabricGenomics, Variantyx), EHR billing systems, and HL7 pipelines — using Ruby on Rails, Python, and AWS. Repeatedly turned engineer-dependent workflows into self-serve systems that CS could configure and operate independently, across dozens of lab clients and multiple third-party integrations. Served as sole owner of critical integrations including HL7 and AdvancedMD billing, and informal technical lead for onboarding and mentoring across the engineering team. Currently building a React/Rails photo gallery app to expand frontend skills beyond EmberJS.
+Senior Full Stack Engineer with 11+ years building backend systems and integrations, including 8 years at a healthcare SaaS startup growing from early-stage to an established platform. Specialised in turning engineer-dependent workflows into self-serve systems — configurable by CS, operable without engineering involvement. Deep domain experience in clinical genomics: lab reporting platforms, EHR billing, and HL7 pipelines. Currently expanding frontend depth into React after 8 years of EmberJS.
 
 ---
 
@@ -56,9 +56,9 @@ Senior Software Engineer with 11+ years building backend systems and third-party
 
 ## Projects
 
-**Photo Gallery App** | React, Ruby on Rails, AWS S3 — [GitHub](https://github.com/ferkoni/gallery)
+**Photo Gallery App** | React 19, TypeScript, Ruby on Rails 8.1, PostgreSQL, AWS S3 — [Frontend](https://github.com/ferkoni/gallery) | [Backend](https://github.com/ferkoni/gallery-api)
 *In progress*
-Personal project building a photo gallery app to develop React skills after 8 years of EmberJS.
+Self-hosted photo management system — JWT authentication with per-session revocation, image uploads to S3 with presigned URLs, async album download via background jobs with WebSocket notification, full-text search and pagination.
 
 ---
 
